@@ -514,7 +514,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip;
             this.Name = "BuilderForm";
-            this.Text = "IsoCaves Level Tools";
+            this.Text = "Level Tools";
             this.Load += new System.EventHandler(this.BuilderForm_Load);
             this.paintContainer.ResumeLayout(false);
             this.paintEditorContainer.ResumeLayout(false);

@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
 using System.IO;
+using Microsoft.SqlServer.Server;
 
 namespace LevelTools
 {
@@ -64,6 +65,24 @@ namespace LevelTools
 
             return File.ReadAllText(filepath);
 
+        }
+
+        public static string BakeBasicFromLevelData(string filepath, Dictionary<string, TilePaint> paintDict)
+        {
+            string mapText = "";
+            for(int i = 0; i < LevelData.w; i++)
+            {
+                for(int j = 0; j < LevelData.h; j++)
+                {
+                    mapText += LevelData.map[i, j].ToString() + " ";
+                }
+                
+                mapText.TrimEnd(' '); //trim trailing comma
+                mapText += "\n"; //add newline
+
+            }
+
+            return mapText;
         }
 
     }

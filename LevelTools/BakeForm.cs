@@ -32,8 +32,9 @@ namespace LevelTools
 
         private void bakeButton_Click(object sender, EventArgs e)
         {
-            string output = CavdatHelper.BakeCavdatFromLevelData("output.cavdat", localPaintDict, "CAVERNS");
-            outputViewer.Text = output;
+            string cavdatOutput = CavdatHelper.BakeCavdatFromLevelData("output.cavdat", localPaintDict, "CAVERNS");
+            string basicOutput = CavdatHelper.BakeBasicFromLevelData("output.txt", localPaintDict);
+            outputViewer.Text = "Basic preview (see output files for full):" + Environment.NewLine + basicOutput;
         }
     }
 }

@@ -451,7 +451,7 @@ namespace LevelTools
         {
             SaveFileDialog saveDialog = new SaveFileDialog();
             saveDialog.Title = "Save MBD File";
-            saveDialog.DefaultExt = "*.mbd";
+            //saveDialog.DefaultExt = "*.mbd";
 
             if (saveDialog.ShowDialog() == DialogResult.OK)
             {

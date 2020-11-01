@@ -1,0 +1,12 @@
+C:\Users\matth\Source\Repos\LevelTools\LevelTools\bin\Debug\LevelTools.exe.config
+C:\Users\matth\Source\Repos\LevelTools\LevelTools\bin\Debug\LevelTools.exe
+C:\Users\matth\Source\Repos\LevelTools\LevelTools\bin\Debug\LevelTools.pdb
+C:\Users\matth\Source\Repos\LevelTools\LevelTools\obj\Debug\LevelTools.csprojAssemblyReference.cache
+C:\Users\matth\Source\Repos\LevelTools\LevelTools\obj\Debug\LevelTools.BakeForm.resources
+C:\Users\matth\Source\Repos\LevelTools\LevelTools\obj\Debug\LevelTools.BuilderForm.resources
+C:\Users\matth\Source\Repos\LevelTools\LevelTools\obj\Debug\LevelTools.Properties.Resources.resources
+C:\Users\matth\Source\Repos\LevelTools\LevelTools\obj\Debug\LevelTools.SetupForm.resources
+C:\Users\matth\Source\Repos\LevelTools\LevelTools\obj\Debug\LevelTools.csproj.GenerateResource.cache
+C:\Users\matth\Source\Repos\LevelTools\LevelTools\obj\Debug\LevelTools.csproj.CoreCompileInputs.cache
+C:\Users\matth\Source\Repos\LevelTools\LevelTools\obj\Debug\LevelTools.exe
+C:\Users\matth\Source\Repos\LevelTools\LevelTools\obj\Debug\LevelTools.pdb
